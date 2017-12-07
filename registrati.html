@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Betstop - Registrati</title>
+  <link rel="shortcut icon" type="image/png" href="img/favicon-logo.png"/>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/slick-theme.css">
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+</head>
+<body>
+<main>
+    <div class="navbar-fixed">
+     <nav class="white" role="navigation">
+        <div class="nav-wrapper container">
+          <a id="logo-container" href="index.html" class="brand-logo"><img src="img/bstop-logo.png" alt="Logo Betstop"></a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="login.html">Login</a></li>
+          </ul>
+
+          <ul id="nav-mobile" class="side-nav">
+            <li><a href="#perche"><i class="material-icons">&#xE7EF;</i> Chi siamo</a></li>
+            <li><a href="login.html"><i class="material-icons">&#xE899;</i> Login</a></li>
+            <li><a href="registrati.html" class="waves-effect waves-light btn">Registrati</a></li>
+          </ul>
+          <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+        </div>
+      </nav>
+     </div>
+     
+     <div class="banner valign-wrapper teal">
+         <div class="container">
+             <h3 class="white-text center-align">Registrati</h3>
+         </div>
+     </div>
+         <div class="container">
+             <div class="row card-panel">
+                 <p class="light">Privacy: trattamento dei dati personali Prima di registrarti ti invitiamo a leggere l'informativa sulla <a href="#">privacy</a>.</p>
+                 <form class="col s12">
+                  <div class="row">
+                    <div class="input-field col s12 m6">
+                      <input id="first_name" type="text" class="validate" data-length="15">
+                      <label for="first_name">Nome</label>
+                    </div>
+                    <div class="input-field col s12 m6">
+                      <input id="last_name" type="text" class="validate" data-length="10">
+                      <label for="last_name">Cognome</label>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="input-field col s12 m6">
+                      <input id="date-of-birth" type="text" class="validate datepicker">
+                      <label for="date">Data di Nascita</label>
+                    </div>
+                    <div class="input-field col s12 m6">
+                        <select multiple>
+                          <option value="1">Italia</option>
+                          <option value="2">Belgium</option>
+                          <option value="3">Germania</option>
+                        </select>
+                        <label>Stato</label>
+                      </div>
+                  </div>
+                  <div class="row">
+                      <div class="input-field col s12 m6">
+                        <select multiple>
+                          <option value="" disabled selected>Choose your option</option>
+                          <option value="1">Modena</option>
+                          <option value="2">Castelfranco</option>
+                          <option value="3">Bomporto</option>
+                        </select>
+                        <label>Località</label>
+                      </div>
+                      <div class="input-field col s12 m6">
+                        <select>
+                          <optgroup label="MO">
+                            <option value="1">Modena</option>
+                            <option value="2">Vignola</option>
+                          </optgroup>
+                          <optgroup label="BO">
+                            <option value="3">Bologna</option>
+                            <option value="4">Castelmaggiore</option>
+                          </optgroup>
+                        </select>
+                        <label>Provincia</label>
+                      </div>
+                  </div>
+                  <div class="row">
+                    <div class="input-field col s12 m6">
+                      <input id="indirizzo" type="text" class="validate" data-length="20">
+                      <label for="first_name">Indirizzo</label>
+                    </div>
+                    <div class="input-field col s12 m6">
+                      <input id="cap" type="text" class="validate number" data-length="5">
+                      <label for="last_name">CAP</label>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="input-field col s12">
+                      <input id="email" type="email" class="validate">
+                      <label for="email">Email</label>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="input-field col s12">
+                      <input id="password" type="password" class="validate">
+                      <label for="password">Password</label>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="input-field col s12">
+                      <input id="password" type="password" class="validate">
+                      <label for="password">Repeat Password</label>
+                    </div>
+                  </div>
+                  <button class="btn waves-effect waves-light" type="submit" name="action">Invia
+                    <i class="material-icons right">send</i>
+                  </button>
+                </form>
+             </div>
+         </div>
+     </main> 
+   
+
+  <footer class="page-footer teal">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Pronto per essere aiutato?</h5>
+          <p class="grey-text text-lighten-4">I tuoi dati sensibili e la tua privacy saranno rispettate, partecipa con fiducia e aiuta te stesso e altre persone a guarire</p>
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Settings</h5>
+          <ul>
+            <li><a class="white-text" href="#!">Link 1</a></li>
+            <li><a class="white-text" href="#!">Link 2</a></li>
+            <li><a class="white-text" href="#!">Link 3</a></li>
+            <li><a class="white-text" href="#!">Link 4</a></li>
+          </ul>
+        </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Privacy</h5>
+          <ul>
+            <li><a class="white-text" href="#!">Link 1</a></li>
+            <li><a class="white-text" href="#!">Link 2</a></li>
+            <li><a class="white-text" href="#!">Link 3</a></li>
+            <li><a class="white-text" href="#!">Link 4</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      <!-- Modal Trigger -->
+      <a class="waves-effect waves-light btn modal-trigger" href="#modal2">Registrati</a>
+      </div>
+    </div>
+  </footer>
+  
+  <!-- MODALS -->
+  <div id="modal1" class="modal">
+    <div class="modal-content">
+      <h4>Modal Header</h4>
+      <div class="row">
+        <form class="col s12">
+          <div class="row">
+            <div class="input-field col s12 m6">
+              <input id="first_name" type="text" class="validate" data-length="15">
+              <label for="first_name">Nome</label>
+            </div>
+            <div class="input-field col s12 m6">
+              <input id="last_name" type="text" class="validate" data-length="10">
+              <label for="last_name">Cognome</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col s12 m6">
+              <input id="date-of-birth" type="text" class="validate datepicker">
+              <label for="date">Data di Nascita</label>
+            </div>
+            <div class="input-field col s12 m6">
+                <select multiple>
+                  <option value="1">Italia</option>
+                  <option value="2">Belgium</option>
+                  <option value="3">Germania</option>
+                </select>
+                <label>Stato</label>
+              </div>
+          </div>
+          <div class="row">
+              <div class="input-field col s12 m6">
+                <select multiple>
+                  <option value="" disabled selected>Choose your option</option>
+                  <option value="1">Modena</option>
+                  <option value="2">Castelfranco</option>
+                  <option value="3">Bomporto</option>
+                </select>
+                <label>Località</label>
+              </div>
+              <div class="input-field col s12 m6">
+                <select>
+                  <optgroup label="MO">
+                    <option value="1">Modena</option>
+                    <option value="2">Vignola</option>
+                  </optgroup>
+                  <optgroup label="BO">
+                    <option value="3">Bologna</option>
+                    <option value="4">Castelmaggiore</option>
+                  </optgroup>
+                </select>
+                <label>Provincia</label>
+              </div>
+          </div>
+          <div class="row">
+            <div class="input-field col s12 m6">
+              <input id="indirizzo" type="text" class="validate" data-length="20">
+              <label for="first_name">Indirizzo</label>
+            </div>
+            <div class="input-field col s12 m6">
+              <input id="cap" type="text" class="validate number" data-length="5">
+              <label for="last_name">CAP</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col s12">
+              <input id="email" type="email" class="validate">
+              <label for="email">Email</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col s12">
+              <input id="password" type="password" class="validate">
+              <label for="password">Password</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col s12">
+              <input id="password" type="password" class="validate">
+              <label for="password">Repeat Password</label>
+            </div>
+          </div>
+          <button class="btn waves-effect waves-light" type="submit" name="action">Invia
+            <i class="material-icons right">send</i>
+          </button>
+        </form>
+      </div>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Chiudi</a>
+    </div>
+  </div>
+  
+  <!-- Modal Structure Bottom Sheet -->
+  <div id="modal2" class="modal bottom-sheet">
+    <div class="modal-content">
+      <h4>Modal Header</h4>
+      <div class="row">
+        <form class="col s12">
+          <div class="row">
+            <div class="input-field col s12 m6">
+              <input id="first_name" type="text" class="validate" data-length="15">
+              <label for="first_name">Nome</label>
+            </div>
+            <div class="input-field col s12 m6">
+              <input id="last_name" type="text" class="validate" data-length="10">
+              <label for="last_name">Cognome</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col s12 m6">
+              <input id="date-of-birth" type="text" class="validate datepicker">
+              <label for="date">Data di Nascita</label>
+            </div>
+            <div class="input-field col s12 m6">
+                <select multiple>
+                  <option value="1">Italia</option>
+                  <option value="2">Belgium</option>
+                  <option value="3">Germania</option>
+                </select>
+                <label>Stato</label>
+              </div>
+          </div>
+          <div class="row">
+              <div class="input-field col s12 m6">
+                <select multiple>
+                  <option value="" disabled selected>Choose your option</option>
+                  <option value="1">Modena</option>
+                  <option value="2">Castelfranco</option>
+                  <option value="3">Bomporto</option>
+                </select>
+                <label>Località</label>
+              </div>
+              <div class="input-field col s12 m6">
+                <select>
+                  <optgroup label="MO">
+                    <option value="1">Modena</option>
+                    <option value="2">Vignola</option>
+                  </optgroup>
+                  <optgroup label="BO">
+                    <option value="3">Bologna</option>
+                    <option value="4">Castelmaggiore</option>
+                  </optgroup>
+                </select>
+                <label>Provincia</label>
+              </div>
+          </div>
+          <div class="row">
+            <div class="input-field col s12 m6">
+              <input id="indirizzo" type="text" class="validate" data-length="20">
+              <label for="first_name">Indirizzo</label>
+            </div>
+            <div class="input-field col s12 m6">
+              <input id="cap" type="text" class="validate number" data-length="5">
+              <label for="last_name">CAP</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col s12">
+              <input id="email" type="email" class="validate">
+              <label for="email">Email</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col s12">
+              <input id="password" type="password" class="validate">
+              <label for="password">Password</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="input-field col s12">
+              <input id="password" type="password" class="validate">
+              <label for="password">Repeat Password</label>
+            </div>
+          </div>
+          <button class="btn waves-effect waves-light" type="submit" name="action">Invia
+            <i class="material-icons right">send</i>
+          </button>
+        </form>
+      </div>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Chiudi</a>
+    </div>
+  </div>
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.min.js"></script>
+  <script src="js/jquery.slides.min.js"></script>
+  <script src="js/parallax.min.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/app.js"></script>
+
+  </body>
+</html>

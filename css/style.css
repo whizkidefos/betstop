@@ -1,0 +1,191 @@
+/*======== GLOBAL STYLES ===============*/
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+section {
+    margin: 0 auto;
+    padding-top: 5rem;
+}
+
+section#perche {
+    width: 75%;
+}
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+.brand-logo img {
+    width: 150px;
+    margin: 10px 0;
+}
+
+h3.sub-title, h4.sub-title, h5.sub-title {
+    color: #26a69a;
+}
+h3.sub-title::after {
+  display: block;
+  content: "";
+  height: 2px;
+  background-color: #26a69a;
+  width: 100px;
+  margin: 20px auto 0 auto;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #26a69a;
+}
+
+/*================== HEADER ============*/
+
+.parallax-container {
+  background: radial-gradient(rgba(0, 0, 0, 0.57), rgba(0, 0, 0, 0.71)), url('../img/support.jpg');
+  min-height: 80vh;
+  line-height: 0;
+  height: auto;
+  color: #fff;
+}
+
+.parallax-container .section {
+    width: 100%;
+  }
+
+.title-primary {
+    animation: fadeIn 2s;
+}
+.title-secondary {
+    animation: moveInLeft 3s;
+}
+
+/*============== ABOUT =============*/
+.heart {
+    color: #ee9526;
+   -webkit-animation: pulse 2s infinite;
+           animation: pulse 2s infinite;
+ }
+
+.material-icons {
+    font-size: 6rem;
+}
+
+section#perche .material-icon {
+    color: red;
+}
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 30%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+/*============= FOOTER ============*/
+footer.page-footer {
+  margin: 0;
+}
+
+footer .footer-logo {
+    width: 150px;
+    max-width: 100%;
+}
+/*============= TESTIMONIAL && SLIDER ============*/
+.thumbs {
+    color: #26a69a;
+    padding-top: 15px;
+}
+
+.slick-prev,
+ .slick-next {
+   background: #26a69a;
+   width: 40px;
+   height: 40px;
+   z-index: 1;
+ }
+ .slick-prev:hover,
+ .slick-next:hover {
+   background: #ee9526;
+ }
+ .slick-prev {
+   left: 0;
+ }
+ .slick-next {
+   right: 0;
+ }
+
+/*=============== REGISTRATI && LOGIN =================*/
+.waves-input-wrapper {
+    margin-bottom: 15px;
+}
+
+/*=============== ANIMATIONS ================*/
+@keyframes pulse {
+   0% {
+     -webkit-transform: scale(1);
+             transform: scale(1);
+   }
+   45% {
+     -webkit-transform: scale(1.1);
+             transform: scale(1.1);
+   }
+   75% {
+     -webkit-transform: scale(1.2);
+             transform: scale(1.2);
+   }
+   100% {
+     -webkit-transform: scale(1);
+             transform: scale(1);
+   }
+ }
+
+@keyframes moveInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-10rem);
+    }
+    80% {
+        transform: translateX(1rem);
+    }
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateX(10rem);
+    }
+    80% {
+        transform: translateX(-1rem);
+    }
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
