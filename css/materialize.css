@@ -1767,6 +1767,10 @@
   background-color: #ff5722 !important;
 }
 
+.yellow-dark {
+    color: #ee9529 !important;
+}
+
 .deep-orange-text {
   color: #ff5722 !important;
 }
@@ -2557,7 +2561,7 @@ ul:not(.browser-default) > li {
 }
 
 a {
-  color: #039be5;
+  color: #26a69a;
   text-decoration: none;
   -webkit-tap-highlight-color: transparent;
 }

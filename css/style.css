@@ -106,6 +106,10 @@ section#perche .material-icon {
   font-size: inherit;
 }
 
+/*================== FAB CONTACT =========*/
+.fixed-action-btn {
+    animation: fadeIn 4s ease-in-out;
+}
 /*============= FOOTER ============*/
 footer.page-footer {
   margin: 0;
