@@ -110,6 +110,7 @@ section#perche .material-icon {
 .fixed-action-btn {
     animation: fadeIn 4s ease-in-out;
 }
+
 /*============= FOOTER ============*/
 footer.page-footer {
   margin: 0;
@@ -123,6 +124,7 @@ footer .footer-logo {
     width: 150px;
     max-width: 100%;
 }
+
 /*============= TESTIMONIAL && SLIDER ============*/
 .thumbs {
     color: #26a69a;
@@ -209,4 +211,10 @@ footer .footer-logo {
     footer.page-footer {
         margin: 0 auto;
 }
+}
+
+@media only screen and (max-width: 480px) {
+    .title-primary {
+        font-size: 2.75rem;
+    }
 }
