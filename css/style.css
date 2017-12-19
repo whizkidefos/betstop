@@ -50,7 +50,7 @@ p {
 #sidenav-overlay { z-index: 1; }
 
 .parallax-container {
-  background: radial-gradient(rgba(0, 0, 0, 0.57), rgba(0, 0, 0, 0.71)), url('../img/support.jpg');
+  background: radial-gradient(rgba(0, 0, 0, 0.57), rgba(0, 0, 0, 0.71)), url('../img/support1.jpg') center / cover;
   min-height: 80vh;
   line-height: 0;
   height: auto;
@@ -104,6 +104,11 @@ section#perche .material-icon {
 }
 .icon-block .material-icons {
   font-size: inherit;
+}
+
+/*================== TESTIMONIAL =========*/
+#testimonial-section blockquote em {
+    font-size: 1.6rem;
 }
 
 /*================== FAB CONTACT =========*/
