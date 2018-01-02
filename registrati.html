@@ -119,6 +119,28 @@
                       <label for="password">Repeat Password</label>
                     </div>
                   </div>
+                  <p class="light">La tua privacy è protetta con Operando</p>
+                  <span class="brand-logo"><a href="#"><img src="img/operando-full-logo.png" alt=""></a></span>
+                  <!--<span> &harr; </span> -->
+                  <span><a class="brand-logo" href="#"><img src="img/bstop-logo.png" alt=""></a></span>
+                  <br>
+                  <p>
+                    <input type="checkbox" id="test5" />
+                    <label for="test5">Potrai impostare i permessi di accesso ai  tuoi dati personali tramite il pannello di controllo di Operando </label>
+                  </p>
+                  <p>
+                    <input type="checkbox" id="test6" />
+                    <label for="test5">Operando controllerà e consentirà l’accesso ai tuoi dati personali sulla base dei permessi da te impostati </label>
+                  </p>
+                  <p>
+                    <input type="checkbox" id="test7" />
+                    <label for="test5">Operando registrerà ogni tentativo di accesso ai tuoi dati personali, che potrai verificare tramite il pannello di controllo di Operando </label>
+                  </p>
+                  <em>Prima di iniziare ti invitiamo a leggere <a href="#">l'informativa sulla privacy</a>.</em>
+                  <p>
+                    <input type="checkbox" id="indeterminate-checkbox" />
+                    <label for="indeterminate-checkbox">Dichiaro di aver preso visione dell'informativa sul trattamento di dati personali.</label>
+                  </p>
                   <button class="btn waves-effect waves-light" type="submit" name="action">Invia
                     <i class="material-icons right">send</i>
                   </button>
@@ -158,197 +180,10 @@
 </div>
 <div class="footer-copyright">
   <div class="container">
-  <!-- Modal Trigger -->
-  <a class="waves-effect waves-light btn modal-trigger" href="#modal2">Registrati</a>
+  <p class="light">Copyright &copy; 2018 All rights reserved</p>
   </div>
 </div>
 </footer>
-  
-  <!-- MODALS -->
-  <div id="modal1" class="modal">
-    <div class="modal-content">
-      <h4>Modal Header</h4>
-      <div class="row">
-        <form class="col s12">
-          <div class="row">
-            <div class="input-field col s12 m6">
-              <input id="first_name" type="text" class="validate" data-length="15">
-              <label for="first_name">Nome</label>
-            </div>
-            <div class="input-field col s12 m6">
-              <input id="last_name" type="text" class="validate" data-length="10">
-              <label for="last_name">Cognome</label>
-            </div>
-          </div>
-          <div class="row">
-            <div class="input-field col s12 m6">
-              <input id="date-of-birth" type="text" class="validate datepicker">
-              <label for="date">Data di Nascita</label>
-            </div>
-            <div class="input-field col s12 m6">
-                <select multiple>
-                  <option value="1">Italia</option>
-                  <option value="2">Belgium</option>
-                  <option value="3">Germania</option>
-                </select>
-                <label>Stato</label>
-              </div>
-          </div>
-          <div class="row">
-              <div class="input-field col s12 m6">
-                <select multiple>
-                  <option value="" disabled selected>Choose your option</option>
-                  <option value="1">Modena</option>
-                  <option value="2">Castelfranco</option>
-                  <option value="3">Bomporto</option>
-                </select>
-                <label>Località</label>
-              </div>
-              <div class="input-field col s12 m6">
-                <select>
-                  <optgroup label="MO">
-                    <option value="1">Modena</option>
-                    <option value="2">Vignola</option>
-                  </optgroup>
-                  <optgroup label="BO">
-                    <option value="3">Bologna</option>
-                    <option value="4">Castelmaggiore</option>
-                  </optgroup>
-                </select>
-                <label>Provincia</label>
-              </div>
-          </div>
-          <div class="row">
-            <div class="input-field col s12 m6">
-              <input id="indirizzo" type="text" class="validate" data-length="20">
-              <label for="first_name">Indirizzo</label>
-            </div>
-            <div class="input-field col s12 m6">
-              <input id="cap" type="text" class="validate number" data-length="5">
-              <label for="last_name">CAP</label>
-            </div>
-          </div>
-          <div class="row">
-            <div class="input-field col s12">
-              <input id="email" type="email" class="validate">
-              <label for="email">Email</label>
-            </div>
-          </div>
-          <div class="row">
-            <div class="input-field col s12">
-              <input id="password" type="password" class="validate">
-              <label for="password">Password</label>
-            </div>
-          </div>
-          <div class="row">
-            <div class="input-field col s12">
-              <input id="password" type="password" class="validate">
-              <label for="password">Repeat Password</label>
-            </div>
-          </div>
-          <button class="btn waves-effect waves-light" type="submit" name="action">Invia
-            <i class="material-icons right">send</i>
-          </button>
-        </form>
-      </div>
-    </div>
-    <div class="modal-footer">
-      <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Chiudi</a>
-    </div>
-  </div>
-  
-  <!-- Modal Structure Bottom Sheet -->
-  <div id="modal2" class="modal bottom-sheet">
-    <div class="modal-content">
-      <h4>Modal Header</h4>
-      <div class="row">
-        <form class="col s12">
-          <div class="row">
-            <div class="input-field col s12 m6">
-              <input id="first_name" type="text" class="validate" data-length="15">
-              <label for="first_name">Nome</label>
-            </div>
-            <div class="input-field col s12 m6">
-              <input id="last_name" type="text" class="validate" data-length="10">
-              <label for="last_name">Cognome</label>
-            </div>
-          </div>
-          <div class="row">
-            <div class="input-field col s12 m6">
-              <input id="date-of-birth" type="text" class="validate datepicker">
-              <label for="date">Data di Nascita</label>
-            </div>
-            <div class="input-field col s12 m6">
-                <select multiple>
-                  <option value="1">Italia</option>
-                  <option value="2">Belgium</option>
-                  <option value="3">Germania</option>
-                </select>
-                <label>Stato</label>
-              </div>
-          </div>
-          <div class="row">
-              <div class="input-field col s12 m6">
-                <select multiple>
-                  <option value="" disabled selected>Choose your option</option>
-                  <option value="1">Modena</option>
-                  <option value="2">Castelfranco</option>
-                  <option value="3">Bomporto</option>
-                </select>
-                <label>Località</label>
-              </div>
-              <div class="input-field col s12 m6">
-                <select>
-                  <optgroup label="MO">
-                    <option value="1">Modena</option>
-                    <option value="2">Vignola</option>
-                  </optgroup>
-                  <optgroup label="BO">
-                    <option value="3">Bologna</option>
-                    <option value="4">Castelmaggiore</option>
-                  </optgroup>
-                </select>
-                <label>Provincia</label>
-              </div>
-          </div>
-          <div class="row">
-            <div class="input-field col s12 m6">
-              <input id="indirizzo" type="text" class="validate" data-length="20">
-              <label for="first_name">Indirizzo</label>
-            </div>
-            <div class="input-field col s12 m6">
-              <input id="cap" type="text" class="validate number" data-length="5">
-              <label for="last_name">CAP</label>
-            </div>
-          </div>
-          <div class="row">
-            <div class="input-field col s12">
-              <input id="email" type="email" class="validate">
-              <label for="email">Email</label>
-            </div>
-          </div>
-          <div class="row">
-            <div class="input-field col s12">
-              <input id="password" type="password" class="validate">
-              <label for="password">Password</label>
-            </div>
-          </div>
-          <div class="row">
-            <div class="input-field col s12">
-              <input id="password" type="password" class="validate">
-              <label for="password">Repeat Password</label>
-            </div>
-          </div>
-          <button class="btn waves-effect waves-light" type="submit" name="action">Invia
-            <i class="material-icons right">send</i>
-          </button>
-        </form>
-      </div>
-    </div>
-    <div class="modal-footer">
-      <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Chiudi</a>
-    </div>
-  </div>
 
 
   <!--  Scripts-->

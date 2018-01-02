@@ -61,9 +61,11 @@
                       <label for="password">Password</label>
                     </div>
                   </div>
+                  
                   <input type="submit" value="Login" class="waves-effect waves-light btn">
+                  <!-- Modal Trigger -->
+                  <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Maggiore Informazione</a>
                 </form>
-                
                 <div class="col s12 m3"></div>
              </div>
          </div>
@@ -101,8 +103,7 @@
 </div>
 <div class="footer-copyright">
   <div class="container">
-  <!-- Modal Trigger -->
-  <a class="waves-effect waves-light btn modal-trigger" href="#modal2">Registrati</a>
+  <<p class="light">Copyright &copy; 2018 All rights reserved</p>
   </div>
 
 </div>
@@ -111,182 +112,39 @@
    <!-- MODALS -->
   <div id="modal1" class="modal">
     <div class="modal-content">
-      <h4>Modal Header</h4>
+      <h4>MAGGIORE INFORMAZIONE</h4>
+      <hr>
       <div class="row">
-        <form class="col s12">
-          <div class="row">
-            <div class="input-field col s12 m6">
-              <input id="first_name" type="text" class="validate" data-length="15">
-              <label for="first_name">Nome</label>
-            </div>
-            <div class="input-field col s12 m6">
-              <input id="last_name" type="text" class="validate" data-length="10">
-              <label for="last_name">Cognome</label>
-            </div>
-          </div>
-          <div class="row">
-            <div class="input-field col s12 m6">
-              <input id="date-of-birth" type="text" class="validate datepicker">
-              <label for="date">Data di Nascita</label>
-            </div>
-            <div class="input-field col s12 m6">
-                <select multiple>
-                  <option value="1">Italia</option>
-                  <option value="2">Belgium</option>
-                  <option value="3">Germania</option>
-                </select>
-                <label>Stato</label>
-              </div>
-          </div>
-          <div class="row">
-              <div class="input-field col s12 m6">
-                <select multiple>
-                  <option value="" disabled selected>Choose your option</option>
-                  <option value="1">Modena</option>
-                  <option value="2">Castelfranco</option>
-                  <option value="3">Bomporto</option>
-                </select>
-                <label>Località</label>
-              </div>
-              <div class="input-field col s12 m6">
-                <select>
-                  <optgroup label="MO">
-                    <option value="1">Modena</option>
-                    <option value="2">Vignola</option>
-                  </optgroup>
-                  <optgroup label="BO">
-                    <option value="3">Bologna</option>
-                    <option value="4">Castelmaggiore</option>
-                  </optgroup>
-                </select>
-                <label>Provincia</label>
-              </div>
-          </div>
-          <div class="row">
-            <div class="input-field col s12 m6">
-              <input id="indirizzo" type="text" class="validate" data-length="20">
-              <label for="first_name">Indirizzo</label>
-            </div>
-            <div class="input-field col s12 m6">
-              <input id="cap" type="text" class="validate number" data-length="5">
-              <label for="last_name">CAP</label>
-            </div>
-          </div>
-          <div class="row">
-            <div class="input-field col s12">
-              <input id="email" type="email" class="validate">
-              <label for="email">Email</label>
-            </div>
-          </div>
-          <div class="row">
-            <div class="input-field col s12">
-              <input id="password" type="password" class="validate">
-              <label for="password">Password</label>
-            </div>
-          </div>
-          <div class="row">
-            <div class="input-field col s12">
-              <input id="password" type="password" class="validate">
-              <label for="password">Repeat Password</label>
-            </div>
-          </div>
-          <button class="btn waves-effect waves-light" type="submit" name="action">Invia
-            <i class="material-icons right">send</i>
-          </button>
-        </form>
-      </div>
-    </div>
-    <div class="modal-footer">
-      <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Chiudi</a>
-    </div>
-  </div>
-  
-  <!-- Modal Structure Bottom Sheet -->
-  <div id="modal2" class="modal bottom-sheet">
-    <div class="modal-content">
-      <h4>Modal Header</h4>
-      <div class="row">
-        <form class="col s12">
-          <div class="row">
-            <div class="input-field col s12 m6">
-              <input id="first_name" type="text" class="validate" data-length="15">
-              <label for="first_name">Nome</label>
-            </div>
-            <div class="input-field col s12 m6">
-              <input id="last_name" type="text" class="validate" data-length="10">
-              <label for="last_name">Cognome</label>
-            </div>
-          </div>
-          <div class="row">
-            <div class="input-field col s12 m6">
-              <input id="date-of-birth" type="text" class="validate datepicker">
-              <label for="date">Data di Nascita</label>
-            </div>
-            <div class="input-field col s12 m6">
-                <select multiple>
-                  <option value="1">Italia</option>
-                  <option value="2">Belgium</option>
-                  <option value="3">Germania</option>
-                </select>
-                <label>Stato</label>
-              </div>
-          </div>
-          <div class="row">
-              <div class="input-field col s12 m6">
-                <select multiple>
-                  <option value="" disabled selected>Choose your option</option>
-                  <option value="1">Modena</option>
-                  <option value="2">Castelfranco</option>
-                  <option value="3">Bomporto</option>
-                </select>
-                <label>Località</label>
-              </div>
-              <div class="input-field col s12 m6">
-                <select>
-                  <optgroup label="MO">
-                    <option value="1">Modena</option>
-                    <option value="2">Vignola</option>
-                  </optgroup>
-                  <optgroup label="BO">
-                    <option value="3">Bologna</option>
-                    <option value="4">Castelmaggiore</option>
-                  </optgroup>
-                </select>
-                <label>Provincia</label>
-              </div>
-          </div>
-          <div class="row">
-            <div class="input-field col s12 m6">
-              <input id="indirizzo" type="text" class="validate" data-length="20">
-              <label for="first_name">Indirizzo</label>
-            </div>
-            <div class="input-field col s12 m6">
-              <input id="cap" type="text" class="validate number" data-length="5">
-              <label for="last_name">CAP</label>
-            </div>
-          </div>
-          <div class="row">
-            <div class="input-field col s12">
-              <input id="email" type="email" class="validate">
-              <label for="email">Email</label>
-            </div>
-          </div>
-          <div class="row">
-            <div class="input-field col s12">
-              <input id="password" type="password" class="validate">
-              <label for="password">Password</label>
-            </div>
-          </div>
-          <div class="row">
-            <div class="input-field col s12">
-              <input id="password" type="password" class="validate">
-              <label for="password">Repeat Password</label>
-            </div>
-          </div>
-          <button class="btn waves-effect waves-light" type="submit" name="action">Invia
-            <i class="material-icons right">send</i>
-          </button>
-        </form>
+        <div class="col s12">
+            <p class="light">
+                <a href="#">Clicca qui</a> per accedere al pannello di controllo di
+                Operando  per impostare i permessi di accesso ai tuoi dati personali.
+            </p>
+            <p class="light">
+                Se vuoi ricevere aiuto dai medici dell’ASL di Bergamo assicurati di concedergli l’accesso ai tuoi dati personali di contatto come nome, cognome, telefono, e-mail.
+            </p>
+            <p class="light">
+                Fino a quando non definirai le regole di accesso ai tuoi dati personali, betSTOP non potrà accedere a nessuno dei tuoi dati personali.
+            </p>
+        </div>
+        <div class="col m3"><img src="img/secure-emblem.png" alt="" class="logo-lightbox"></div>
+        <div class="col m9">
+            <h5>Proteggiamo i tuoi acquisti.</h5>
+            <p class="light">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam aspernatur consequuntur vel accusamus veritatis iure.</p>
+            <a href="#">Scopri di più</a>
+        </div>
+        <br>
+        <hr>
+        <div class="col m5">
+            <img src="img/operando-full-logo.png" alt="" class="logo-lightbox">
+        </div>
+        <div class="col m7">
+            <h5>Operando protegge la tua privacy</h5>
+            <hr>
+            <p>Operando rende sicuri i tuoi dati personali, facili da gestire e permette di avere il controllo sulla tua privacy online.
+
+            Tramite un pannello di amministrazione facile da utilizzare, puoi esprimere le preferenze di accesso ai tuoi dati personali e verificare come esse vengono applicate in modo trasparente.</p>
+        </div>
       </div>
     </div>
     <div class="modal-footer">
